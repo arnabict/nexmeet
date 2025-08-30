@@ -14,6 +14,7 @@
 @theme inline {
   --color-dark-1: #1c1f2e;
   --color-dark-2: #161925;
+  --background-hero: url("/images/hero-background.png");
   --color-blue-1: #0e78f9;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -52,10 +53,33 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+}
 
-  /* .cl-providerIcon__github {
-    filter: invert(1);
-  } */
+.cl-providerIcon__github {
+  filter: invert(1);
+}
+
+.cl-userButtonPopoverActionButtonIcon {
+  color: white;
+}
+
+.cl-logoBox {
+  height: 40px;
+}
+.cl-dividerLine {
+  background: #252a41;
+  height: 2px;
+}
+
+.cl-socialButtonsIconButton {
+  border: 3px solid #565761;
+}
+
+.cl-internal-wkkub3 {
+  color: white;
+}
+.cl-userButtonPopoverActionButton {
+  color: white;
 }
 
 :root {
