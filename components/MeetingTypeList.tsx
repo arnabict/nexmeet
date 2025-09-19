@@ -51,8 +51,7 @@ const MeetingTypeList = () => {
       if (!values.description) {
         router.push(`/meeting/${call.id}`);
       }
-
-      toast("Failed to create meeting");
+      toast("Meeting Created");
     } catch (error) {
       console.log(error);
       toast("Failed to create meeting");
