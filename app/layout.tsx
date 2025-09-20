@@ -4,13 +4,13 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import "@stream-io/video-react-sdk/dist/css/styles.css";
-import { Poppins } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "react-datepicker/dist/react-datepicker.css";
 
-const poppins = Poppins({
+const quicksand = Quicksand({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
+  variable: "--font-quicksand",
 });
 
 const geistSans = Geist({
@@ -54,7 +54,7 @@ export default function RootLayout({
         }}
       >
         <body
-          className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased bg-dark-2`}
+          className={`${geistSans.variable} ${geistMono.variable} ${quicksand.variable} antialiased bg-dark-2`}
         >
           {children}
           <Toaster />
