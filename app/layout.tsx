@@ -5,6 +5,7 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import "@stream-io/video-react-sdk/dist/css/styles.css";
 import { Poppins } from "next/font/google";
+import "react-datepicker/dist/react-datepicker.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
