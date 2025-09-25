@@ -53,8 +53,8 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
 
         setRecordings(recordings);
       } catch (error) {
-        toast("Try again later");
         console.log(error);
+        toast("Try again later");
       }
     };
 
