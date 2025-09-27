@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎥 Nexmeet - A Video Conferencing App
 
-## Getting Started
+A modern**video conferencing platform** built with Next.js 15.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **TypeScript** – Strongly typed, scalable codebase
+- **Next.js 15** – App Router, SSR, and API routes for modern React apps
+- **Tailwind CSS v4** – Utility-first styling with responsive design
+- **shadcn/ui** – Prebuilt accessible components for consistent UI
+- **Clerk** – Authentication & user management (social sign-on, email, password)
+- **GetStream.io** – Real-time video conferencing & collaboration APIs
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔋 Features
 
-## Learn More
+✅ **Authentication** – Secure login/signup via Clerk (social or email), fine-grained access control
+✅ **New Meeting** – Start meetings instantly with camera/mic pre-configuration
+✅ **Meeting Controls** – Recording, emoji reactions, screen share, mute/unmute, sound, grid layouts, participant management (pin, mute, block, allow video)
+✅ **Exit Meeting** – Leave individually or end the meeting for all (if host)
+✅ **Schedule Future Meetings** – Set date & time; manage them via an _Upcoming Meetings_ page
+✅ **Past Meetings** – Browse previous sessions with metadata
+✅ **Recorded Meetings** – Rewatch saved sessions anytime
+✅ **Personal Room** – Unique permanent meeting link per user
+✅ **Join via Link** – Quick access to meetings shared by others
+✅ **Real-time Security** – Fully secure, low-latency interactions
+✅ **Responsive Design** – Mobile, tablet, and desktop optimized
+✅ **Reusable Code Architecture** – Modular and scalable component structure
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots (Optional)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Nexmeet Landing Page](screenshot/Nexmeet.png)
