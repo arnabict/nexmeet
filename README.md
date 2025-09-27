@@ -1,6 +1,6 @@
 # 🎥 Nexmeet - A Video Conferencing App
 
-A modern**video conferencing platform** built with Next.js 15.
+A modern **video conferencing platform** built with Next.js 15.
 
 ---
 
