@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: "Nexmeet",
   description: "Video calling app",
   icons: {
-    icon: "/icons/nexmeetlogo.png",
+    icon: "/nexmeetlogo.png",
   },
 };
 
