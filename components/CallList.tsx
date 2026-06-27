@@ -3,7 +3,7 @@
 import { useGetCalls } from "@/hooks/useGetCalls";
 import { Call, CallRecording } from "@stream-io/video-react-sdk";
 import { useRouter } from "next/navigation";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import MeetingCard from "./MeetingCard";
 import Loader from "./Loader";
 import { toast } from "sonner";
@@ -44,7 +44,7 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
     const fetchRecordings = async () => {
       try {
         const callData = await Promise.all(
-          callRecordings?.map((meeting) => meeting.queryRecordings()) ?? []
+          callRecordings?.map((meeting) => meeting.queryRecordings()) ?? [],
         );
 
         const recordings = callData
@@ -80,8 +80,8 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
               type === "ended"
                 ? "/icons/previous.svg"
                 : type === "upcoming"
-                ? "/icons/upcoming.svg"
-                : "/icons/recordings.svg"
+                  ? "/icons/upcoming.svg"
+                  : "/icons/recordings.svg"
             }
             title={
               (meeting as Call).state?.custom?.description?.substring(0, 26) ??
