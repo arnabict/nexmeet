@@ -16,6 +16,10 @@ const Meeting = ({ params }: { params: Promise<{ id: string }> }) => {
 
   if (!isLoaded || isCallLoading) return <Loader />;
 
+  if (!user) {
+    return <div>Please sign in to join this meeting.</div>;
+  }
+
   return (
     <main className="h-screen w-full">
       <StreamCall call={call}>
